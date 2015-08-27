@@ -1,7 +1,7 @@
 ZSH plugin for wakatime
 =======================
 
-Automatic time tracking for commands in ZSH using wakatime.
+Automatic time tracking for commands in ZSH using [wakatime](http://wakatime.com/).
 
 Installation (OS X only)
 ------------
