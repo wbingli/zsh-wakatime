@@ -1,7 +1,7 @@
 #wakatime for zsh
 
 send_wakatime_heartbeat() {
-    (wakatime --write --plugin zsh-wakatime --notfile --project Terminal --file $(last_command)> /dev/null 2>&1 &)
+    (wakatime --write --plugin zsh-wakatime --notfile --project Terminal --file /$(last_command)> /dev/null 2>&1 &)
 }
 
 #only command without arguments to avoid senstive information
