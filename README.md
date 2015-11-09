@@ -12,7 +12,7 @@ Also make sure you have configured wakatime via other wakatime plugins such as V
 
 1. `brew install wakatime-cli`
 
-2. `cd ~/.oh-my-zsh/custom/plugins && git clone git@github.com:wbinglee/zsh-wakatime.git`
+2. `cd ~/.oh-my-zsh/custom/plugins && git clone git@github.com:wbinglee/zsh-wakatime.git` or whatever how you manage your zsh plugins.
 
 3. Edit your `.zshrc` file and add `zsh-wakatime` to oh-my-zsh plugins
 
@@ -35,6 +35,5 @@ WakaTime plugins share a common config file `.wakatime.cfg` located in your user
 
 More
 ----
-* Change heartbeat type as `command`?
-* Remove heartbeat entity absolute path, just keep command
-* Skip sending heartbeat for same command in a short time
+* Change heartbeat type as `command`? how?
+* Skip sending heartbeat for same command in a short period time?
