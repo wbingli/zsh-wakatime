@@ -27,7 +27,7 @@ Screen Shot
 ![waketime-zsh](https://www.evernote.com/shard/s46/sh/305c23c4-2c42-4dd0-8b88-8c5443d60cd8/43561d9f9642e021/res/4cdb5e47-14cd-47c0-b232-a3f41b8781b7/skitch.png)
 
 
-Configuring
+Configuration
 -----------
 
 WakaTime plugins share a common config file `.wakatime.cfg` located in your user home directory with [these options](https://github.com/wakatime/wakatime#configuring) available.
