@@ -24,7 +24,7 @@ Also make sure you have configured wakatime via other wakatime plugins such as V
 Screen Shot
 ------------
 
-![waketime-zsh](https://www.evernote.com/shard/s46/sh/305c23c4-2c42-4dd0-8b88-8c5443d60cd8/43561d9f9642e021/res/4cdb5e47-14cd-47c0-b232-a3f41b8781b7/skitch.png)
+![waketime-zsh](https://www.evernote.com/shard/s46/sh/47996872-d054-4c52-843e-2fe17a3d7f90/32032a685a2f8bfb/res/5b40b557-22d0-4520-a687-02d745ef08a2/skitch.png)
 
 
 Configuration
