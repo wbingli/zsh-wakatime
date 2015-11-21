@@ -7,7 +7,7 @@ send_wakatime_heartbeat() {
 
 # generate text to report as "filename" to the wakatime API
 waka_filename() {
-    if [ "$WAKATIME_USE_DIRNAME" == "true" ]; then
+    if [ "x$WAKATIME_USE_DIRNAME" = "xtrue" ]; then
         # just use the current working directory
         echo "$PWD"
     else
