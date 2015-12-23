@@ -31,9 +31,3 @@ Configuration
 -----------
 
 WakaTime plugins share a common config file `.wakatime.cfg` located in your user home directory with [these options](https://github.com/wakatime/wakatime#configuring) available.
-
-
-More
-----
-* Change heartbeat type as `command`? how?
-* Skip sending heartbeat for same command in a short period time?
