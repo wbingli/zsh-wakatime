@@ -10,7 +10,7 @@ It depends on [zsh](http://www.zsh.org/) and [oh-my-zsh](https://github.com/robb
 
 Also make sure you have configured wakatime via other wakatime plugins such as VIM, sublime etc.
 
-1. `brew install wakatime-cli`
+1. `sudo pip install wakatime`
 
 2. `cd ~/.oh-my-zsh/custom/plugins && git clone git@github.com:wbinglee/zsh-wakatime.git` or whatever how you manage your zsh plugins.
 
