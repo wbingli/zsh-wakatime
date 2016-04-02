@@ -2,7 +2,7 @@
 
 # hook function to send wakatime a tick
 send_wakatime_heartbeat() {
-    (wakatime --write --plugin "zsh-wakatime/0.0.1" --entitytype app --project Terminal --file "/$(waka_filename)"> /dev/null 2>&1 &)
+    (wakatime --write --plugin "zsh-wakatime/0.0.1" --entitytype app --project Terminal --entity "$(waka_filename)"> /dev/null 2>&1 &)
 }
 
 # generate text to report as "filename" to the wakatime API
