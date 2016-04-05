@@ -16,4 +16,4 @@ waka_filename() {
     fi
 }
 
-precmd_functions+=(send_wakatime_heartbeat)
+add-zsh-hook precmd send_wakatime_heartbeat

@@ -3,24 +3,22 @@ ZSH plugin for wakatime
 
 Automatic time tracking for commands in ZSH using [wakatime](http://wakatime.com/).
 
-Installation (OS X only)
+Installation
 ------------
 
 It depends on [zsh](http://www.zsh.org/) 4.2 or higher.
 
-Also make sure you have configured wakatime via other wakatime plugins such as VIM, sublime etc.
+Also make sure you have configured wakatime API key in your [~/.wakatime.cfg](https://github.com/wakatime/wakatime#configuring) file.
 
-1. `pip install wakatime` . Make sure using wakatime CLI version 4.1+.
+1. `pip install wakatime` to install wakatime CLI, with 4.1 or higher. See more [here](https://github.com/wakatime/wakatime) for wakatime CLI.
 
-Ohmyzsh Setup
-------------
-1. `cd ~/.oh-my-zsh/custom/plugins && git clone git@github.com:wbinglee/zsh-wakatime.git` or whatever how you manage your zsh plugins.
+2. For oh-my-zsh user:
+  - `cd ~/.oh-my-zsh/custom/plugins && git clone git@github.com:wbinglee/zsh-wakatime.git`
 
-2. Edit your `.zshrc` file and add `zsh-wakatime` to oh-my-zsh plugins
+  - Edit your `.zshrc` file and add `zsh-wakatime` to oh-my-zsh plugins
 
-Antigen Setup
-------------
-1. `antigen bundle wbinglee/zsh-wakatime`
+3. For Antigen user:
+  - `antigen bundle wbinglee/zsh-wakatime`
 
 4. Open a new terminal and type commands
 
