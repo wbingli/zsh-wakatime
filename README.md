@@ -13,7 +13,7 @@ Also make sure you have configured wakatime API key in your [~/.wakatime.cfg](ht
 1. `pip install wakatime` to install wakatime CLI, with 4.1 or higher. See more [here](https://github.com/wakatime/wakatime) for wakatime CLI.
 
 2. For oh-my-zsh user:
-  - `cd ~/.oh-my-zsh/custom/plugins && git clone git@github.com:wbinglee/zsh-wakatime.git`
+  - `cd ~/.oh-my-zsh/custom/plugins && git clone https://github.com/wbinglee/zsh-wakatime.git`
 
   - Edit your `.zshrc` file and add `zsh-wakatime` to oh-my-zsh plugins
 
