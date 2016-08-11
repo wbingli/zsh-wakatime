@@ -26,7 +26,7 @@ It depends on [wakatime CLI](https://github.com/wakatime/wakatime) **6.0 or high
 Screen Shot
 ------------
 
-![waketime-zsh](https://www.evernote.com/shard/s46/sh/47996872-d054-4c52-843e-2fe17a3d7f90/32032a685a2f8bfb/res/5b40b557-22d0-4520-a687-02d745ef08a2/skitch.png)
+![waketime-zsh](https://www.evernote.com/shard/s46/sh/7a4e4395-b58a-46b7-a2fd-962e37631e68/3eff94b8014f6c3b/res/fff4d1c5-1b44-4e89-a4f6-cdddc19100a1/skitch.png)
 
 
 Configuration
