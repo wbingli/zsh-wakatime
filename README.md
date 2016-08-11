@@ -6,7 +6,7 @@ Automatic time tracking for commands in ZSH using [wakatime](http://wakatime.com
 Installation
 ------------
 
-It depends on [wakatime CLI](https://github.com/wakatime/wakatime) **6.0 or higher**. Make sure you have configured wakatime API key in your [~/.wakatime.cfg](https://github.com/wakatime/wakatime#configuring) file. If you use wakatime in other editors, this file may have already there.
+It depends on [wakatime CLI](https://github.com/wakatime/wakatime) **6.0 or higher**. Make sure you have configured wakatime API key in your [~/.wakatime.cfg](https://github.com/wakatime/wakatime#configuring) file. If you use wakatime in other editors, this file may be already there.
 
 1. `pip install wakatime` to install wakatime CLI, with **6.0 or higher**. Check wakatime CLI version by `wakatime --version`. See more [here](https://github.com/wakatime/wakatime) for wakatime CLI.
 
