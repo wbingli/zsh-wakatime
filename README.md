@@ -6,7 +6,7 @@ Automatic time tracking for commands in ZSH using [wakatime](http://wakatime.com
 Installation
 ------------
 
-It depends on [zsh](http://www.zsh.org/) **6.0 or higher**.
+It depends on [wakatime CLI](https://github.com/wakatime/wakatime) **6.0 or higher**.
 
 Also make sure you have configured wakatime API key in your [~/.wakatime.cfg](https://github.com/wakatime/wakatime#configuring) file.
 
