@@ -23,7 +23,7 @@ It depends on [wakatime CLI](https://github.com/wakatime/wakatime) **6.0 or high
 5. Visit https://wakatime.com/project/Terminal
 
 
-Screen Shot
+Screenshot
 ------------
 
 ![waketime-zsh](https://www.evernote.com/shard/s46/sh/7a4e4395-b58a-46b7-a2fd-962e37631e68/3eff94b8014f6c3b/res/fff4d1c5-1b44-4e89-a4f6-cdddc19100a1/skitch.png)
