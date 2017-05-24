@@ -11,7 +11,7 @@ It depends on [wakatime CLI](https://github.com/wakatime/wakatime) **6.0 or high
 1. `pip install wakatime` to install wakatime CLI, with **6.0 or higher**. Check wakatime CLI version by `wakatime --version`. See more [here](https://github.com/wakatime/wakatime) for wakatime CLI.
 
 2. For oh-my-zsh user:
-  - `cd ~/.oh-my-zsh/custom/plugins && git clone https://github.com/wende/zsh-wakatime.git`
+  - `cd ~/.oh-my-zsh/custom/plugins && git clone https://github.com/wbinglee/zsh-wakatime.git`
 
   - Edit your `.zshrc` file and add `zsh-wakatime` to oh-my-zsh plugins
 
