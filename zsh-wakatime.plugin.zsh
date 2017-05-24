@@ -4,8 +4,8 @@
 send_wakatime_heartbeat() {
     entity=$(waka_filename);
     if [ "$entity" ]; then
-        if hash git 2>/dev/null && git rev-parse --show-toplevel 2>/dev/null; then
-              (wakatime --write --project `basename \`git rev-parse --show-toplevel\`` --plugin "zsh-wakatime/0.0.1" --entity-type app --entity "$entity"> /dev/null 2>&1 &)
+        if hash git>/dev/null 2>&1 && ${project=$(git rev-parse --show-toplevel>/dev/null 2>&1)}; then
+              (wakatime --write --project `basename project` --plugin "zsh-wakatime/0.0.1" --entity-type app --entity "$entity"> /dev/null 2>&1 &)
         else
           (wakatime --write --project "Terminal" --plugin "zsh-wakatime/0.0.1" --entity-type app --entity "$entity"> /dev/null 2>&1 &)
         fi
@@ -23,4 +23,8 @@ waka_filename() {
     fi
 }
 
-precmd_functions+=(send_wakatime_heartbeat)
+heartbeat() {
+  (send_wakatime_heartbeat > /dev/null 2>&1 &)
+}
+
+precmd_functions+=(heartbeat)
