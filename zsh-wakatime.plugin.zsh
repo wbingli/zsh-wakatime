@@ -5,11 +5,8 @@ hasgit=`type "git">/dev/null 2>&1`$?
 send_wakatime_heartbeat() {
     entity=$(waka_filename);
     project=$(waka_projectname);
-    if [ $project ]; then 
-       projectArg="--project ${project}"
-    fi;
     if [ "$entity" ]; then
-        (wakatime --write --plugin "zsh-wakatime/0.0.1" --entity-type app ${projectArg} --entity "$entity"> /dev/null 2>&1 &)
+        (wakatime --write --plugin "zsh-wakatime/0.0.1" --entity-type app ${project:-<<LAST_PROJECT>>} --entity "$entity"> /dev/null 2>&1 &)
     fi
 }
 waka_projectname() {
@@ -23,7 +20,7 @@ waka_filename() {
     if [ "x$WAKATIME_USE_DIRNAME" = "xtrue" ]; then
         # just use the current working directory
         echo "$PWD"
-    else
+    else 
 	    # only command without arguments to avoid senstive information
         echo "$history[$((HISTCMD-1))]" | cut -d ' ' -f1
     fi
