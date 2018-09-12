@@ -2,7 +2,6 @@
 
 # hook function to send wakatime a tick
 hasgit=`type "git">/dev/null 2>&1`$?
-typeset -A dirmap
 send_wakatime_heartbeat() {
     entity=$(waka_filename);
     project=$(waka_projectname);
