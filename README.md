@@ -22,6 +22,16 @@ It depends on [wakatime CLI](https://github.com/wakatime/wakatime) **6.0 or high
 
 5. Visit https://wakatime.com/project/Terminal
 
+Project Detection
+------------
+
+By default all actions logged by the ZSH plugin for wakatime are associated with the *Terminal* project, if you would like the plugin to attribute the project based on either git repository or the last accessed project then set `ZSH_WAKATIME_PROJECT_DETECTION` to true in your environment.
+
+To enable:
+
+1. Edit your `.zshrc`
+2. Add the line `export ZSH_WAKATIME_PROJECT_DETECTION=true` at the top of the file.
+
 
 Screenshot
 ------------
