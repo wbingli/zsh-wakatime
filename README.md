@@ -43,3 +43,17 @@ Configuration
 -----------
 
 WakaTime plugins share a common config file `.wakatime.cfg` located in your user home directory with [these options](https://github.com/wakatime/wakatime#configuring) available.
+
+
+Troubleshooting
+-----------
+
+If you don't see any data while visiting https://wakatime.com/project/Terminal, trying below to find out the problem:
+
+ - Run `ps | grep wakatime` repeatedly as fast as possbile
+ - You should notice process with command like `wakatime --write --plugin zsh-wakatime/0.0.1 --entity-type app --project Terminal --entity ...`
+ - Copy that full command and execute in the terminal. 
+ - If any problem happens while running this command, please reference to https://github.com/wakatime/wakatime#troubleshooting  for further troubleshootig.
+
+
+
