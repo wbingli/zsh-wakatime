@@ -8,7 +8,7 @@ Installation
 
 It depends on [wakatime CLI](https://github.com/wakatime/wakatime) **6.0 or higher**. Make sure you have configured wakatime API key in your [~/.wakatime.cfg](https://github.com/wakatime/wakatime#configuring) file. If you use wakatime in other editors, this file may be already there.
 
-1. `pip install wakatime` to install wakatime CLI, with **6.0 or higher**. Check wakatime CLI version by `wakatime --version`. See more [here](https://github.com/wakatime/wakatime) for wakatime CLI.
+1. `python3 -c "$(wget -q -O - https://raw.githubusercontent.com/wakatime/vim-wakatime/master/scripts/install_cli.py)"` to install wakatime CLI.
 
 2. For oh-my-zsh user:
   - `cd ~/.oh-my-zsh/custom/plugins && git clone https://github.com/wbingli/zsh-wakatime.git`
@@ -52,7 +52,7 @@ If you don't see any data while visiting https://wakatime.com/project/Terminal, 
 
  - Run `ps | grep wakatime` repeatedly as fast as possbile
  - You should notice process with command like `wakatime --write --plugin zsh-wakatime/0.0.1 --entity-type app --project Terminal --entity ls`
- - Copy that full command and execute in the terminal. 
+ - Copy that full command and execute in the terminal.
  - If any problem happens while running this command, please reference to https://github.com/wakatime/wakatime#troubleshooting  for further troubleshootig.
 
 

@@ -6,7 +6,7 @@ send_wakatime_heartbeat() {
     entity=$(waka_filename);
     project=$(waka_projectname);
     if [ "$entity" ]; then
-        (wakatime --write --plugin "zsh-wakatime/0.0.1" --entity-type app --project ${project} --entity "$entity"> /dev/null 2>&1 &)
+        (wakatime-cli --write --plugin "zsh-wakatime/0.0.1" --entity-type app --project ${project} --entity "$entity"> /dev/null 2>&1 &)
     fi
 }
 waka_projectname() {
