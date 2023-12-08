@@ -27,8 +27,13 @@ waka_filename() {
         # just use the current working directory
         echo "$PWD"
     else
-	    # only command without arguments to avoid senstive information
-        echo "$history[$((HISTCMD-1))]" | cut -d ' ' -f1
+        # only command without arguments to avoid senstive information
+        for token in ${(s. .)history[$((HISTCMD-1))]} ; do
+            if ! ((token[(I)=])); then
+                echo $token
+                break
+            fi
+        done
     fi
 }
 
