@@ -12,7 +12,7 @@ send_wakatime_heartbeat() {
 waka_projectname() {
     if [ "x$ZSH_WAKATIME_PROJECT_DETECTION" = "xtrue" ]; then
         if [ $hasgit ]; then
-            gitproject=$(git config --local remote.origin.url 2> /dev/null|sed -n 's#.*/\([^.]*\)\.git#\1#p')
+            gitproject=$(git config --local remote.origin.url 2> /dev/null|sed 's#.*/\([^.]*\)#\1#;s#.git$##')
             echo ${gitproject:-<<LAST_PROJECT>>}
         else
             echo "<<LAST_PROJECT>>"
