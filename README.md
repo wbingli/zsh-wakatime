@@ -10,7 +10,12 @@ It depends on [wakatime CLI](https://github.com/wakatime/wakatime-cli) **6.0 or 
 
 1. `python3 -c "$(wget -q -O - https://raw.githubusercontent.com/wakatime/vim-wakatime/master/scripts/install_cli.py)"` to install wakatime CLI.
 
-2. For oh-my-zsh user:
+For mac User
+```
+brew install wakatime-cli
+```
+
+3. For oh-my-zsh user:
   - `cd ~/.oh-my-zsh/custom/plugins && git clone https://github.com/wbingli/zsh-wakatime.git`
 
   - Edit your `.zshrc` file and add `zsh-wakatime` to oh-my-zsh plugins
