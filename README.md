@@ -16,7 +16,7 @@ brew install wakatime-cli
 ```
 
 3. For oh-my-zsh user:
-  - `cd ~/.oh-my-zsh/custom/plugins && git clone https://github.com/wbingli/zsh-wakatime.git`
+  - `git clone https://github.com/wbingli/zsh-wakatime.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-wakatime`
 
   - Edit your `.zshrc` file and add `zsh-wakatime` to oh-my-zsh plugins
 
