@@ -77,4 +77,4 @@ If you don't see any data while visiting https://wakatime.com/project/Terminal, 
  - Run `ps | grep wakatime` repeatedly as fast as possbile.
  - You should notice process with command like `wakatime-cli --write --plugin zsh-wakatime/0.0.1 --entity-type app --project Terminal --entity ps`.
  - Copy that full command and execute in the terminal.
- - If any problem happens while running this command, please reference to https://github.com/wakatime/wakatime#troubleshooting  for further troubleshootig.
+ - If any problem happens while running this command, please reference to https://github.com/wakatime/wakatime-cli/blob/develop/TROUBLESHOOTING.md for further troubleshootig.
