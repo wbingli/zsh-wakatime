@@ -31,7 +31,7 @@ Ensure your WakaTime API key is set up in your [~/.wakatime.cfg](https://github.
 
 - **For Oh-My-Zsh users**:  
   ```
-  git clone https://github.com/wbingli/zsh-wakatime.git ${Zsh_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-wakatime
+  git clone https://github.com/wbingli/zsh-wakatime.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-wakatime
   ```
   Then, edit your `.zshrc` file and add `zsh-wakatime` to the list of Oh-My-Zsh plugins.
 
@@ -66,7 +66,7 @@ Screenshot
 Configuration
 ---
 
-WakaTime plugins share a common config file `.wakatime.cfg` located in your user home directory with [these options](https://github.com/wakatime/wakatime#configuring) available.
+WakaTime plugins share a common config file `.wakatime.cfg` located in your user home directory with [these options](https://github.com/wakatime/wakatime-cli/blob/develop/USAGE.md) available.
 
 
 Troubleshooting
